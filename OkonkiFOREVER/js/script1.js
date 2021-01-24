@@ -58,8 +58,7 @@ var genangle = angle;
 var div = 3;
 var orig1 = 400;
 var orig2 = 600;
-var TextRules = 
-"F -> >F< <br> a -> F[+x]Fb<br>b -> F[-y]Fa<br>x -> a<br>y -> b"
+var TextRules = "F -> F-F++F-F"
 
 var rules = [];
 rules[0] = {
