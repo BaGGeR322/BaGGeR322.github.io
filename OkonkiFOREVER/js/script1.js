@@ -73,8 +73,8 @@ function FXFFXF (){
         a: "X",
         b: "XF-F+F-XF+F+XF-F+F-X"
     }
-    orig1 = 1.1;
-    orig2 = 2;
+    orig1 = 788;
+    orig2 = 400;
     div = 2;
     len = 120;
     NumToAngle = 90;
@@ -99,8 +99,8 @@ function Y (){
     }
     div = 1.65;
     len = 150;
-    orig1 = 2;
-    orig2 = 1;
+    orig1 = 400;
+    orig2 = 800;
     NumToAngle = 25.7;
     angle = radians(NumToAngle);
     sentence = axiom;
@@ -119,8 +119,8 @@ function F1 (){
     }
     div = 2;
     len = 150;
-    orig1 = 2;
-    orig2 = 1;
+    orig1 = 400;
+    orig2 = 800;
     NumToAngle = 22.5;
     angle = radians(NumToAngle);
     sentence = axiom;
@@ -139,8 +139,8 @@ function F2 (){
     }
     div = 2.1;
     len = 120;
-    orig1 = 2;
-    orig2 = 1;
+    orig1 = 400;
+    orig2 = 800;
     NumToAngle = 35;
     angle = radians(NumToAngle);
     sentence = axiom;
@@ -175,8 +175,8 @@ function VZFFF (){
     }
     div = 1.25;
     len = 120;
-    orig1 = 2;
-    orig2 = 1;
+    orig1 = 400;
+    orig2 = 800;
     NumToAngle = 20;
     angle = radians(NumToAngle);
     sentence = axiom;
@@ -199,8 +199,8 @@ function YX (){
     }
     div = 1.7;
     len = 120;
-    orig1 = 2;
-    orig2 = 1;
+    orig1 = 400;
+    orig2 = 800;
     NumToAngle = 60;
     angle = radians(NumToAngle);
     sentence = axiom;
@@ -223,8 +223,8 @@ function X (){
     }
     div = 1.85;
     len = 120;
-    orig1 = 2;
-    orig2 = 1;
+    orig1 = 400;
+    orig2 = 800;
     NumToAngle = 20;
     angle = radians(NumToAngle);
     sentence = axiom;
@@ -284,8 +284,8 @@ function but_rotright(){
 
 function ApplyF (){
     var texts = "";
-    orig1 = 2;
-    orig2 = 1;
+    orig1 = 400;
+    orig2 = 800;
     axiom = $('#TextAxioma').val();
     len = 120;
     sentence = axiom;
@@ -399,6 +399,7 @@ function setup() {
     $('#TextRules').html(TextRules);
 
     angle = radians(NumToAngle);
+    $('#TextAngle').html(NumToAngle + '°');
 
     createCanvas(800, 800);
     generateF();
